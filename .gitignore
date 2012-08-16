@@ -6,11 +6,16 @@
 
 # Ignore Play! working directory #
 db
-eclipse
 log
 logs
 precompiled
 tmp
 test-result
-eclipse
 server.pid
+ERM.iml
+ERM.ipr
+ERM.iws
+target
+
+# Ignore config file (for security reason)
+conf/application.conf
